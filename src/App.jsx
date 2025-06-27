@@ -550,7 +550,7 @@ const App = () => {
       <main className="flex-grow p-4 sm:p-6 lg:p-8">
         <div className="max-w-screen-2xl mx-auto">
             <header className="mb-4 text-center relative">
-                <h1 className="text-4xl font-bold text-gray-800">ソートアルゴリズム可視化ツール</h1>
+                <h2 className="text-4xl font-bold text-gray-800">ソートアルゴリズム可視化ツール</h2>
                 <p className="text-gray-600 mt-2">様々なソートアルゴリズムの動作をインタラクティブに学ぼう</p>
                 <div className='absolute top-0 right-0 flex gap-2'>
                     <button onClick={() => setShowControls(!showControls)} className="p-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition-colors shadow" title="コントロールパネルの表示切替">
